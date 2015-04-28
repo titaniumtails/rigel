@@ -1,0 +1,9 @@
+<template name="todoList">
+  <div class="todos">
+    <ol>
+      {{#each todos}}
+        {{> todoItem}}
+      {{/each}}
+    </ol>
+  </div>
+</template>
