@@ -1,7 +1,14 @@
 <head>
-  <title>rigel</title>
+  <title>Rigel</title>
 </head>
 
 <body>
   <h1>Welcome to Rigel CMS!</h1>
+
+  {{> hello}}
 </body>
+
+<template name="hello">
+  <div class="ui button">Click Me</div>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
