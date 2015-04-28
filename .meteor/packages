@@ -8,4 +8,5 @@ meteor-platform
 autopublish
 insecure
 underscore
-semantic:ui-css
+semantic:ui
+flemay:less-autoprefixer
